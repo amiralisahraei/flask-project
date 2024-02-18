@@ -17,10 +17,15 @@ To run the project, run the following command
 ```bash
   pip install -r requirements.txt
 ```
+then, you need to train the Neural Netwrok model on Mnist and save the weights
+```bash
+  python train_model.py
+```
 then,
 ```bash
   export FLASK_APP = main.py
 ```
+
 finally,
 ```bash
   flask run
